@@ -48,6 +48,6 @@ for i in range(100):
         print('sleep_time: ' + str(sleep_time) + 's')
 
         browser.get(siteURL)
-        
+
         time.sleep(sleep_time)
         browser.quit()
